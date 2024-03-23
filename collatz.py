@@ -3,6 +3,7 @@
 
 # For control flow keywords 'while, if, elif, else' are used and for exception handling 'try, except'.
 # Be mindful of indentation: Python relies on indentation to define scope in the code.
+# https://stackoverflow.com/ has helped me greatly with my weekly tasks.
 
 while True: # Loop statement: True is a boolean value that always evaluates to true, so the loop will continue indefinitely unless a break statement is encountered or an exception is raised.
     try:
