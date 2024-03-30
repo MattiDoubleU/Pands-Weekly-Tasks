@@ -9,17 +9,17 @@ def sqrt(number):                       # Creating function 'sqrt' as per task i
     if number < 0:                      # If defined condition (positive number) not met raise exception:
         raise ValueError("Input must be a positive number")  # ValueError is an exception class that applies when type (floating number) is correct but with an inappropriate value (negative in this case).
 
-    a = number / 2                      # Defining variable 'a' which is initial guess for the square root, input number divided by 2.
+    X = number / 2                      # Defining variable 'X' which is initial guess for the square root, input number divided by 2.
 
     while True:                         # If condition is met (true) loop (while) until desired outcome (approximation of the square root of the input number) using Newton's method until convergence:
         
-        b = 0.5 * (a + (number / a))    # Defining variable 'b' which is next guess.
+        N = 0.5 * (X + (number / X))    # Defining variable 'N' which is next guess.
         
-        if abs(b - a) < 0.00001:        # Check if the difference between consecutive guesses is very small using function 'abs'(Return the absolute value of argument) and '<0.00001' to indicate the
-                                        # the difference between a & b is smaller than 0.0001, when this condition is met, iteration can stop (approximation converged).
-            return b                    # Exit function and return final result of the square root approximation to the caller of the function.
+        if abs(N - X) < 0.00001:        # Check if the difference between consecutive guesses is very small using function 'abs'(Return the absolute value of argument) and '<0.00001' to indicate the
+                                        # the difference between X & N is smaller than 0.0001, when this condition is met, iteration can stop (approximation converged).
+            return N                    # Exit function and return final result of the square root approximation to the caller of the function.
         
-        a = b                           # When first bloc of code is executed the result in 'b' is assigned to 'a' to reiterate operation until condition defined in line 18 is met.
+        X = N                           # When first bloc of code is executed the result in 'N' is assigned to 'a' to reiterate operation until condition defined in line 18 is met.
 
 # Continuously prompt the user to enter a number until a valid input is provided (positive floating number). This is achieved by creating a 2nd loop (while):
 while True:
