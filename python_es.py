@@ -32,14 +32,14 @@ with open("A21.txt", "r", encoding='utf-8') as f:
 print(f"There are {e} es in this text")
 
 
-# I was worried this code would count lower case e's only so I modified the code:
+# I was worried this code would count lower case e's only or omit é so I modified the code:
 
 FILENAME = "A21.txt"
-E = 0                                                 
+é = 0                                                 
 with open("A21.txt", "r", encoding='utf-8') as f:
     for line in f:                                    
-        E += line.count("e")                          
+        é += line.count("e")                          
                                                       
-print(f"There are {E} E/es in this text")
+print(f"There are {é} E/es in this text")
 
-# The result is the same. Python is clever : E or e = 0 without need for being told. :)
+# The result is the same. Python is clever : E or e,é, any variant of e = 0 without need for being told. :)
