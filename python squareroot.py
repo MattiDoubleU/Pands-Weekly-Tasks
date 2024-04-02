@@ -7,7 +7,7 @@
 def sqrt(number):                       # Creating function 'sqrt' as per task instruction and based on Newton's method.       
     
     if number < 0:                      # If defined condition (positive number) not met raise exception:
-        raise ValueError("Input must be a positive number")  # ValueError is an exception class that applies when type (floating number) is correct but with an inappropriate value (negative in this case).
+        raise ValueError("Please enter a positive number")  # ValueError is an exception class that applies when type (floating number) is correct but with an inappropriate value (negative in this case).
 
     X = number / 2                      # Defining variable 'X' which is initial guess for the square root, input number divided by 2.
 
@@ -30,8 +30,8 @@ while True:
             print("Please enter a positive number.")
         else:                                                           # If correct, condition (positive floating number) is met iteratation of approximation starts as defined above.
            
-            approximation = sqrt(number)                                # Variable 'approximation' is the final result of function 'sqrt'
+            approximation = sqrt(number)                                                # Variable 'approximation' is the final result of function 'sqrt'
             print(f"The square root of {number} is approximately: {approximation:.2f}") # Printing two floating points (rounded) only: '.2f'.
-            break                                                       # Exit the loop if a valid input is provided
-    except ValueError:                                                  # If input is not a number as per line 28.
+            break                                                                       # Exit the loop if a valid input is provided
+    except ValueError:                                                                  # If input is not a number as per line 28.
         print("Invalid input. Please enter a valid positive floating point number.")
