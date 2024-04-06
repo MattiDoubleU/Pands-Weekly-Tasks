@@ -4,11 +4,11 @@
 
 For this week's tasks, 
 
-    Please post a simply introduction of yourself on teams, 
-    Install the required software on your machine,
-    Pull the sample code in my repository to your machine,
-    Create a GitHub account and repository for yourself (pands-mywork), and the weekly task (pands-weekly-tasks)
-    Commit and push a file to the weekly tasks repository called helloworld.py
+Please post a simply introduction of yourself on teams, 
+Install the required software on your machine,
+Pull the sample code in my repository to your machine,
+Create a GitHub account and repository for yourself (pands-mywork), and the weekly task (pands-weekly-tasks)
+Commit and push a file to the weekly tasks repository called helloworld.py
 
 This file should contain a python program that displays Hello World! when it is run.
 
@@ -20,9 +20,9 @@ Write a program called bank.py
 
 The program should:
 
-                Prompt the user and read in two money amounts (in cent)
-                Add the two amounts
-                Print out the answer in a human readable format with a euro sign and decimal point between the euro and cent of the amount 
+-Prompt the user and read in two money amounts (in cent)
+-Add the two amounts
+-Print out the answer in a human readable format with a euro sign and decimal point between the euro and cent of the amount 
 
 # Weekly Task 03
 
@@ -68,8 +68,8 @@ Marks will be given for dealing with errors eg no argument, filename that does n
 
 Write a program called plottask.py that displays:
 
-    a histogram of a normal distribution of a 1000 values with a mean of 5 and standard deviation of 2, 
-    and a plot of the function  h(x)=x3 in the range 0 to 10, 
+-a histogram of a normal distribution of a 1000 values with a mean of 5 and standard deviation of 2, 
+-and a plot of the function  h(x)=x3 in the range 0 to 10, 
 
 on the one set of axes.
 
