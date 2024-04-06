@@ -24,7 +24,7 @@ plt.hist(random)
 '''
 # Then tried the code as proposed in above link, the result looks much nicer: 
 
-plt.hist(data, bins=30, color='skyblue', edgecolor='black')
+plt.hist(random, bins=30, color='skyblue', edgecolor='black')
 
 # Adding labels and title (I still need to understand the context of the labels)
 plt.xlabel('Values')
