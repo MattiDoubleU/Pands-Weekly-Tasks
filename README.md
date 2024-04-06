@@ -20,9 +20,9 @@ Write a program called bank.py
 
 The program should:
 
--Prompt the user and read in two money amounts (in cent)
--Add the two amounts
--Print out the answer in a human readable format with a euro sign and decimal point between the euro and cent of the amount 
+    Prompt the user and read in two money amounts (in cent)
+    Add the two amounts
+    Print out the answer in a human readable format with a euro sign and decimal point between the euro and cent of the amount 
 
 # Weekly Task 03
 
@@ -68,9 +68,7 @@ Marks will be given for dealing with errors eg no argument, filename that does n
 
 Write a program called plottask.py that displays:
 
--a histogram of a normal distribution of a 1000 values with a mean of 5 and standard deviation of 2, 
--and a plot of the function  h(x)=x3 in the range 0 to 10, 
-
-on the one set of axes.
+    a histogram of a normal distribution of a 1000 values with a mean of 5 and standard deviation of 2, 
+    and a plot of the function  h(x)=x3 in the range 0 to 10, on the one set of axes.
 
 Some marks will be given for making the plot look nice (legend etc).
