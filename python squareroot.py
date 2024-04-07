@@ -1,6 +1,6 @@
 # python squareroot.py
 # Compute the square root of a positive floating-point number using Newton's method: Xn+1 ​= 0.5 ​(Xn​+N/Xn​​).
-# With help of stackoverflow.com.
+# With help of stackoverflow.com. and my housemate who lectures NLP/ML at University of Galway.
 # Author: Matthias Wiedemann
 # Indentation is crucial as it serves as a means of defining the structure and hierarchy of code blocks. 
 
