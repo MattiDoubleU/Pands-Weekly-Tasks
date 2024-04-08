@@ -7,10 +7,10 @@
 # Added \t for good measure
 
 accountnumber = str(input("\tPlease enter 10 digit account number: "))
-masked_accountnumber = 'X' * 6 + accountnumber[-4:] # display last 4 digits of acc number
+masked_accountnumber = 'X' * 6 + accountnumber[-4:] # display last 4 digits of account number
 print(f"\tAccount number is {masked_accountnumber}")
 
-# Extra: The solution cold be to use 'len()' function which is used to determine the length of a sequence or collection.
+# Extra: The solution could be to use 'len()' function which is used to determine the length of a sequence or collection.
 # It returns the number of characters in a string for example.
 
 accountnumber = str(input("Please enter account number: "))
@@ -19,3 +19,7 @@ masked_accountnumber = 'X' * list_size + accountnumber[-4:]
 print(f"Account number is {masked_accountnumber}")
 
 # I couldn't figure out how to make Xs represent the masked numbers minus the visible digits.
+# Update: I copied the below code from https://stackoverflow.com/questions/52408105/masking-part-of-a-string. Looks like it does exactly that.
+
+masked_accountnumber = len(accountnumber[:-4])*"#"+accountnumber[-4:]
+print(f"Account number is {masked_accountnumber})
