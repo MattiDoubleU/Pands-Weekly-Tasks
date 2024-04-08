@@ -1,6 +1,9 @@
 # This repository contains the weekly tasks for the Programming & Scripting module
-# A total of 8 tasks had to be completed (all copied from the course website)
-# Weekly Tasks 1:
+***
+## A total of 8 tasks had to be completed (all copied from the course website)
+***
+
+## Weekly Tasks 1:
 
 For this week's tasks, 
 
@@ -16,7 +19,7 @@ Summary:
 Based on the lecture and course material this task was very easy.
 
 
-# Weekly Tasks 02
+## Weekly Tasks 02
 
 When Banks are storing currency figures, they store them as integers (usually in cent).This is to avoid rounding errors. 
 
@@ -32,7 +35,7 @@ Summary:
 Like weekly task01 I coud easily figure it out based what had been covered in class so far and on th course material.
 
 
-# Weekly Task 03
+## Weekly Task 03
 
 Bank account numbers can stored as 10 character strings, for security reasons some applications only display the last 4 characters (with the other other characters replaced with Xs).
 
@@ -46,7 +49,7 @@ Weekly task03 was becoming significantly more challenging than the previous two 
  https://stackoverflow.com/questions/52408105/masking-part-of-a-string
 
 
-# Weekly task 4
+## Weekly task 4
 
 Write a program, called collatz.py, that asks the user to input any positive integer and outputs the successive values of the following calculation.
 
@@ -65,7 +68,7 @@ For weekly task04 I 'recycled' some lines of code from the sample code and lectu
 I also have to admit that Dr Atul Kumar Ojha who lectures at University of Galway in NLP/ML helped me with the fine tuning of this code.
 
 
-# Weekly Task 05
+## Weekly Task 05
 
 Write a program that outputs whether or not today is a weekday. (The program should be called weekday.py)
 
@@ -76,7 +79,7 @@ As proposed by the lecturer I went straight to websearch to complete this task, 
  https://www.geeksforgeeks.org/python-datetime-weekday-method-with-example/ \
  https://stackoverflow.com/questions/9847213/how-do-i-get-the-day-of-week-given-a-date
 
-# Weekly task 6
+## Weekly task 6
 
 Write a program that takes a positive floating-point number as input and outputs an approximation of its square root.
 
@@ -94,7 +97,7 @@ Like for weekly task04, Dr Atul Kumar Ojha who lectures at University of Galway 
  https://realpython.com/python-while-loop/
 
 
-# Weekly task 7
+## Weekly task 7
 
 Write a program that reads in a text file and outputs the number of e's it contains. Think about what is being asked here, document any assumptions you are making.
 
@@ -108,7 +111,7 @@ For this task course material from topic07 was very helpful but I also used diff
  https://stackoverflow.com/questions/9233027/unicodedecodeerror-charmap-codec-cant-decode-byte-x-in-position-y-character \
  https://www.w3schools.com/python/ref_string_count.asp 
 
-# Weekly Task 8
+## Weekly Task 8
 
 Write a program called plottask.py that displays:
 
