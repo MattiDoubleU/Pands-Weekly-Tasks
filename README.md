@@ -106,7 +106,7 @@ Summary:
 For this task course material from topic07 was very helpful but I also used different sources from the internet which are listed below. I decided to get a Spanish text from the internet for this task because Spanish has more variants of the letter E/e than English and I wanted to explore this a bit as part of the task. As prerequiste I saved the file A21.txt in the pands-weekly-tass folder. My conclusion is that python would indeed include any possible variant of the letter E/e, é etc. in the count with the code I used. Very interesting was the fact that due to special characters in the original text, I had to transform that the source text to Unicode-UTF8 first before being able to run a code on it. References: \
  https://stackoverflow.com/questions/69319005/count-a-string-in-a-text-file-with-python \
  https://stackoverflow.com/questions/9233027/unicodedecodeerror-charmap-codec-cant-decode-byte-x-in-position-y-character \
- https://www.w3schools.com/python/ref_string_count.asp \
+ https://www.w3schools.com/python/ref_string_count.asp 
 
 # Weekly Task 8
 
