@@ -122,4 +122,4 @@ For this task I availed of the lecture material from week08 as well as from Ian'
  https://numpy.org/doc/stable/reference/random/generated/numpy.random.normal.html \
  https://www.geeksforgeeks.org/plotting-histogram-in-python-using-matplotlib/ \
  https://www.geeksforgeeks.org/plot-mathematical-expressions-in-python-using-matplotlib/ \
- https://stackoverflow.com/questions/8209568/how-do-i-draw-a-grid-onto-a-plot-in-python \
+ https://stackoverflow.com/questions/8209568/how-do-i-draw-a-grid-onto-a-plot-in-python 
