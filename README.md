@@ -49,7 +49,7 @@ Weekly task03 was becoming significantly more challenging than the previous two 
  https://stackoverflow.com/questions/52408105/masking-part-of-a-string
 
 
-## Weekly task 4
+## Weekly task 04
 
 Write a program, called collatz.py, that asks the user to input any positive integer and outputs the successive values of the following calculation.
 
