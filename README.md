@@ -2,7 +2,7 @@
 
 # This repository contains the weekly tasks for the Programming & Scripting module
 ***
-## A total of 8 tasks had to be completed (all copied from the course website)
+## A total of 8 tasks had to be completed [(all copied from the course website)](https://vlegalwaymayo.atu.ie/course/view.php?id=8088)
 ***
 
 ## Weekly task 01:
