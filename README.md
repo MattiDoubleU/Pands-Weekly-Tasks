@@ -1,3 +1,5 @@
+<img src="https://studenthub.atu.ie/assets/ATU_Logo.fa93bf0a.svg" alt="ATU Logo" width="300" height="100">
+
 # This repository contains the weekly tasks for the Programming & Scripting module
 ***
 ## A total of 8 tasks had to be completed (all copied from the course website)
